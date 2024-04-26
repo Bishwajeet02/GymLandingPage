@@ -1,0 +1,246 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.flex{
+    display: flex;
+   
+}
+.item-center{
+    align-items: center;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+
+}
+.font-bold{
+    font-weight: bolder;
+}
+
+.flex-col{
+    flex-direction: column;
+   
+}
+.section-1{
+max-height: 100vh;
+}
+.justify-center{
+    justify-content: center;
+ 
+}
+
+.top-left{
+  
+    height: 50vh;
+    width: 50%;
+    
+  
+}
+.top-right{
+    width: 50%;
+ 
+}
+
+.my-1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.my-2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.px-2{
+    padding-left:13px ;
+    padding-right: 13px;
+}
+.text-blue{
+    color: rgb(53, 88, 214);
+    font-size: 1.5rem;
+
+}
+.btn{
+    padding: 4px 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    background-color:navy;
+}
+
+.dumb{
+    width: 250px;
+    height: 250px;
+    padding: 0 50px;
+    position: relative;
+    top: 5px;
+    left:-20px;
+}
+.section-1 h1{
+    font-size: 2rem;
+}
+.text-center{
+    text-align: center;
+    
+
+}
+.section-2 h1{
+    font-size: 2.5rem;
+}
+.section-2{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.box{
+    padding: 12px 22px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(129, 137, 246);
+    text-align: center;
+    border-radius: 10px;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+.highlight{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 12px;
+}
+.section-2 p{
+    padding: 0;
+    text-align: center;
+    margin: 5px;
+}
+.Ptable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    border-collapse: collapse;
+
+
+}
+.section-3{
+    padding-left: 63px;
+    padding-right:63px ;
+}
+
+.section-3 table th{
+    width: 23vw;
+    border-bottom:2px solid black ;
+    padding: 15px 0;
+
+}
+
+
+.section-3 table td {
+  border-bottom:2px solid black ; ;
+}
+
+.section-3 table tr{
+    border-bottom:2px solid black ; ;
+  }
+  
+  .section-3 h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  footer{
+    padding: 23px;
+    text-align: center;
+  }
+  
+  /* Animation */
+
+   .heading{
+    opacity: 0;
+  }
+  .heading.animate__animated{
+    opacity: 1;
+  }
+
+  
+  .imgAnimation{
+    opacity: 0;
+  }
+  .imgAnimation.animate__animated{
+    opacity: 1;
+  }
+
+  .content{
+    opacity: 0;
+  }
+  .content.animate__animated{
+    opacity: 1;
+    animation-delay: 2s;
+  }
+
+  
+  .up{
+    opacity: 0;
+  }
+  .up.animate__animated{
+    opacity: 1;
+  
+  }
+
+  .price{
+    opacity: 0;
+  }
+  .price.animate__animated{
+    opacity: 1;
+  
+  }
+
+  .sub{
+    opacity: 0;
+  }
+  .sub.animate__animated{
+    opacity: 1;
+  
+  }
+
+  .boxAnimation {
+    opacity: 0;
+  }
+  .boxAnimation.animate__animated{
+    opacity: 1;
+  
+  }
+
+  .last{
+    opacity: 0;
+  }
+  .last.animate__animated{
+    opacity: 1;
+  
+  }
